@@ -1,0 +1,32 @@
+{
+    "expo": {
+        "name": "Microplastics Detection",
+        "slug": "microplastics-detection",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "dark",
+        "splash": {
+            "backgroundColor": "#0a0e1a"
+        },
+        "ios": {
+            "supportsTablet": true,
+            "infoPlist": {
+                "NSCameraUsageDescription": "This app uses the camera to capture images of water samples for microplastics detection.",
+                "NSPhotoLibraryUsageDescription": "This app accesses photos to analyze images for microplastics."
+            }
+        },
+        "android": {
+            "adaptiveIcon": {
+                "backgroundColor": "#0a0e1a"
+            },
+            "permissions": [
+                "CAMERA",
+                "READ_EXTERNAL_STORAGE"
+            ]
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
