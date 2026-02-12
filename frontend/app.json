@@ -4,8 +4,12 @@
         "slug": "microplastics-detection",
         "version": "1.0.0",
         "orientation": "portrait",
-        "icon": "./assets/icon.png",
         "userInterfaceStyle": "dark",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
         "splash": {
             "backgroundColor": "#0a0e1a"
         },
@@ -26,7 +30,8 @@
             ]
         },
         "web": {
-            "favicon": "./assets/favicon.png"
+            "bundler": "metro",
+            "output": "single"
         }
     }
 }
