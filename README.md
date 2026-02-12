@@ -10,7 +10,7 @@ An end-to-end AI-powered system for detecting and classifying microplastic parti
 
 ---
 
-## 🔬 Overview
+##  Overview
 
 Microplastic pollution is a growing environmental and health concern, but traditional laboratory analysis is expensive and time-consuming. This project provides a **demo-ready, deployable alternative** that uses AI to detect microplastic particles from smartphone camera images.
 
@@ -27,7 +27,7 @@ Microplastic pollution is a growing environmental and health concern, but tradit
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 microplastics_detection/
@@ -57,7 +57,7 @@ microplastics_detection/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -156,7 +156,7 @@ image: <file>
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 cd backend
@@ -170,7 +170,7 @@ python test_api.py
 
 ---
 
-## 🤖 Model Details
+##  Model Details
 
 | Property | Value |
 |----------|-------|
@@ -183,7 +183,7 @@ python test_api.py
 
 ---
 
-## 🛠️ Configuration
+##  Configuration
 
 All settings can be configured via environment variables or the `.env` file:
 
@@ -197,13 +197,13 @@ All settings can be configured via environment variables or the `.env` file:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) – State-of-the-art object detection
 - [Roboflow](https://roboflow.com/) – Dataset hosting and annotation tools
