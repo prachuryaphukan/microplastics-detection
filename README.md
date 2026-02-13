@@ -116,7 +116,7 @@ The best checkpoint is automatically saved to `model/microplastics_best.pt`.
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
